@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+#logo{
+    width: 200px;
+    margin:1rem 0;
+}
+nav{
+    background-color: #FDFBF1;
+    border-top: 2px solid #FFD877;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.content{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+.paragrafo{
+    font-size: 1em;
+}
+#autore {
+    display: block;
+    text-align: center;
+}
