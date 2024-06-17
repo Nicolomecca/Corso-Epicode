@@ -15,6 +15,7 @@ REGOLE
 */
 
 let myName= 'Nicolò'
+console.log(myName)
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -30,6 +31,7 @@ console.log(somma)
 */
 
 let x=12
+console.log(x)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -39,6 +41,7 @@ myName='Mecca'
 
 Const age=24
 Const age=26
+console.log(age)
 
 
 /* ESERCIZIO 5
