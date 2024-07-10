@@ -41,8 +41,10 @@ body{
 .kg{
     font-size: 1.8em;
     font-weight: 600;
+    position: relative;
+    top: 10px;
 }
-.btn{
+.btnino{
     width: 60%;
     margin: 0 auto;
     font-size: 1.7em;
