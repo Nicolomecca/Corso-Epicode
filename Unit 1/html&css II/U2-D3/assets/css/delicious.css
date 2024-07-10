@@ -1,0 +1,36 @@
+@media screen and (min-width: 500px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    body {
+        color: #612406;
+    }
+
+    .lorem h3 {
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .lorem {
+        padding-left: 30px;
+    }
+
+    body {
+        color: #612406;
+    }
+
+    .lorem h3 {
+        font-size: 2em;
+    }
+}
+
