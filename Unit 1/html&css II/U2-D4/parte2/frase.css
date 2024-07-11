@@ -8,3 +8,27 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid color(#444444);
+}
+
+#testoAlternato {
+    width: 50%;
+    font-size: 1.5em;
+    height: 200px;
+    border: 10px solid #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #444444;
+    font-weight: 500;
+     /* Imposta l'altezza del contenitore all'altezza della viewport */
+}
+p{
+    width: 80%;
+}
