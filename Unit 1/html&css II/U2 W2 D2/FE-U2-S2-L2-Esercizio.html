@@ -8,7 +8,7 @@
   </head>
   <body >
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid">
                 <div class="container d-flex justify-content-between ">
               <a class="navbar-brand" href="#"><img src="https://iconape.com/wp-content/png_logo_vector/evelin-r-travel-agency-logo.png " width="70"  /></a>
@@ -21,18 +21,18 @@
                     <a class="nav-link active" aria-current="page" href="#">Saldi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Welcome Summer</a>
+                    <a class="nav-link active" aria-current="page" href="#welcomeSummer">Welcome Summer</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Last Minute</a>
+                    <a class="nav-link active" aria-current="page" href="#lastMinute">Last Minute</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Recensioni</a>
+                    <a class="nav-link active" aria-current="page" href="#recensioni">Recensioni</a>
                   </li>                 
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <button class="btn btn-outline-success " type="submit">Search</button>
                 </form>
             </div>
               </div>
@@ -42,15 +42,15 @@
     <main>
         <div class="container bg-body-tertiary shadow p-3 mb-5 bg-body-tertiary rounded mt-5">
            <div class="row d-flex flex-column align-items-center text-center ">
-            <div class="col text-secondary"><h1> Eveline-R-<span> Feel the freedom</span></h1></div>
+            <div class="col text-secondary d-flex justify-content-center"><h1 class=" fs-1"> Eveline-R-</h1> <span class="fs-5 d-flex align-items-center" > Feel the freedom</span></div>
             <div class="col text-secondary mt-2"><h2>Scopri le destinazioni più calde del <br> momento!</h2> </div>
-            <div class="col"> <button type="button" class="btn btn-primary text-center btn-lg mt-2">Prenota Ora!</button></div>
+            <div class="col"> <button type="button" class="btn btn-primary text-center btn-lg mt-2 mb-5">Prenota Ora!</button></div>
         </div> 
         </div>
         <div class="container">
             <div class="d-flex justify-content-between "> 
                 <h3 class="fs-1">Saldi</h3>
-                <a class=''href="#">Nascondi Sezione</a>
+                <a class='text-decoration-none'href="#">Nascondi Sezione</a>
             </div>
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 gy-2 gx-1 ">
                 <div class="col">
@@ -96,7 +96,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" id="welcomeSummer">
             <div><h3 class="my-3">Welcome Summer</h3></div>
             <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 gy-2 ">
                 <div class="col">
@@ -169,7 +169,7 @@
         </div>
 
         </div>
-<div class="container">
+<div class="container d-none d-sm-block ">
     <div class="row">
         <div class="col"><img src="sey.jpg" class="card-img-top rounded" alt="seychelles"></div>
         <div class="col"> <h3>Seychelles</h3> 
@@ -180,7 +180,7 @@
     </div>
     </div>
 </div>
-<div class="container mt-4">
+<div class="container mt-4" id="lastMinute">
   <h3>Last Minute</h3>
   <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4 ">
    <div class="col"><img src="sey.jpg" class="rounded img-fluid" alt="seychelles"> </div> 
@@ -191,10 +191,11 @@
    <div class="col"><img src="sey.jpg" class="rounded img-fluid" alt="seychelles"> </div> 
   </div>
 </div>
+<h2 class="text-center mt-5 ">Dicono di noi</h2>
 <div class="container mt-5">
   <div class="row">
-    <div class="col-3"> <img src="https://cdn.discordapp.com/attachments/1258823559653097483/1262773954851115121/image.png?ex=6697d164&is=66967fe4&hm=adb26d0249ef31a357da634d512da4111a541a8e2f52b87b4b949039e2bb1e01&" /></div>
-    <div class="col-9">
+    <div class="col-3 col-lg-2"> <img src="https://cdn.discordapp.com/attachments/1258823559653097483/1262773954851115121/image.png?ex=6697d164&is=66967fe4&hm=adb26d0249ef31a357da634d512da4111a541a8e2f52b87b4b949039e2bb1e01&" /></div>
+    <div class="col-9 col-lg-10">
     <h4>Username</h4>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero itaque, facere earum exercitationem quibusdam facilis debitis eius alias maiores doloribus, iste inventore harum optio quis adipisci sed nam tempore.<br>
@@ -205,7 +206,41 @@
   </div>
   </div>
   </div>
+  <div class="container mt-5" id='recensioni'>
+    <div class="row">
+      <div class="col-3 col-lg-2"> <img src="https://cdn.discordapp.com/attachments/1258823559653097483/1262773954851115121/image.png?ex=6697d164&is=66967fe4&hm=adb26d0249ef31a357da634d512da4111a541a8e2f52b87b4b949039e2bb1e01&" /></div>
+      <div class="col-9 col-lg-10">
+      <h4>Username</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero itaque, facere earum exercitationem quibusdam facilis debitis eius alias maiores doloribus, iste inventore harum optio quis adipisci sed nam tempore.<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis provident vero quia odit similique molestiae vitae nobis quisquam ratione autem, tenetur, neque distinctio necessitatibus mollitia ad eos vel expedita.<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nemo modi inventore repellendus debitis molestias deserunt, incidunt voluptas placeat quas veniam, asperiores dicta excepturi perspiciatis eaque repellat veritatis ex suscipit!<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolorum beatae ex corporis nesciunt unde debitis voluptatibus repellendus harum. Quas cumque ipsa atque sunt illum temporibus unde vitae earum numquam!
+      </p>
+    </div>
+    </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-3 col-lg-2"> <img src="https://cdn.discordapp.com/attachments/1258823559653097483/1262773954851115121/image.png?ex=6697d164&is=66967fe4&hm=adb26d0249ef31a357da634d512da4111a541a8e2f52b87b4b949039e2bb1e01&" /></div>
+        <div class="col-9 col-lg-10">
+        <h4>Username</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero itaque, facere earum exercitationem quibusdam facilis debitis eius alias maiores doloribus, iste inventore harum optio quis adipisci sed nam tempore.<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis provident vero quia odit similique molestiae vitae nobis quisquam ratione autem, tenetur, neque distinctio necessitatibus mollitia ad eos vel expedita.<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nemo modi inventore repellendus debitis molestias deserunt, incidunt voluptas placeat quas veniam, asperiores dicta excepturi perspiciatis eaque repellat veritatis ex suscipit!<br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolorum beatae ex corporis nesciunt unde debitis voluptatibus repellendus harum. Quas cumque ipsa atque sunt illum temporibus unde vitae earum numquam!
+        </p>
+      </div>
+      </div>
+      </div>
 </div>
+<footer class="bg-dark d-flex flex-column justify-content-center mt-5">
+  <div class="text-center mt-5"><button type="button" class="btn btn-outline-secondary btn-sm ">Contattaci</button></div>
+    <div>
+      <p class="text-light text-center mt-4 mb-5">&copy; 2024 Evelin-R Tutti i diritti riservati.</p>
+    </div>
+</footer>
 
 
 
