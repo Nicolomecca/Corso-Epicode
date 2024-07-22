@@ -65,6 +65,8 @@ const memory = []
 const petForm = document.getElementsByTagName('form')[0]
 
 petForm.addEventListener('submit',function(e){
+    e.preventDefault()
+    
 const petName = document.getElementById('petName').value
 const ownerName = document.getElementById('ownerName').value
 const species = document.getElementById('species').value
@@ -78,10 +80,25 @@ const animals = new Pet (
 )
 
 memory.push(animals)
-const lista = document.getElementById('lista')
-lista.innerHTML=''
+const list = document.getElementById('lista')
+list.innerHTML=''
 for (let i = 0; i < memory.length; i++){
     const newLi = document.createElement('li')
+      newLi.innerText =
+        memory[i].petName +
+        ', ' +
+        memory[i].ownerName +
+        ', ' +
+        memory[i].species +
+
+        ' ,' +
+        memory[i].breed +
+
+        
+
+
+      newLi.classList.add('list-group-item')
     
+      list.appendChild(newLi)
 }
 })
