@@ -45,15 +45,8 @@ class Pet {
         this.species = _species
         this.breed = _breed
     }
-    sameOwner = function(otherOwner){
-        if(!(otherOwner instanceof Pet) ){
-            throw new Error ('il parametro deve essere un istanza della classe Pet')
-           }
-           if(this.ownerName === otherOwner.ownerName){
-            return 'True'
-           } else{
-            return 'False'
-           }
+    sameOwner = function(otherPet){
+         return this.ownerName === otherPet.ownerName
     }
   
 }
@@ -92,13 +85,12 @@ for (let i = 0; i < memory.length; i++){
         memory[i].species +
 
         ' ,' +
-        memory[i].breed +
-
-        
-
+        memory[i].breed 
 
       newLi.classList.add('list-group-item')
     
       list.appendChild(newLi)
+      document.getElementsByTagName('form')[0].reset()
+
 }
 })
