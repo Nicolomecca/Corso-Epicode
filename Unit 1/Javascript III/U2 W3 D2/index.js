@@ -1,3 +1,15 @@
+// punto il form
+//Creo array vuoto
+//creo la funzione per gestire l'input e aggiornare la lista
+//creo la funzione per salvare i nomi da local storage
+// Creo Funzione per creare la lista da un array
+//  Creo Funzione per rimuovere l'ultimo elemento
+// Aggiungi gli event listener
+// Carica i nomi salvati all'avvio
+
+
+
+
 const myForm = document.getElementsByTagName('form')[0];
 const myArray = [];
 
@@ -65,7 +77,8 @@ const removeLastName = function() {
 
 // Aggiungi gli event listener
 myForm.addEventListener('submit', myName);
-document.getElementById('remove').addEventListener('click', removeLastName);
+const remove = document.getElementById('remove')
+remove.addEventListener('click', removeLastName);
 
 // Carica i nomi salvati all'avvio
 loadSavedNames();
